@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asnus.duzcem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.asnus.duzcem.Splash"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.asnus.duzcem.Giris"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.asnus.duzcem.Galeri"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.asnus.duzcem.Akcakoca"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+        android:name="com.asnus.duzcem.Cilimli"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity
+        android:name="com.asnus.duzcem.Cumayeri"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity
+        android:name="com.asnus.duzcem.Golyaka"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity
+        android:name="com.asnus.duzcem.Gumusova"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity
+        android:name="com.asnus.duzcem.Kaynasli"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity
+        android:name="com.asnus.duzcem.Eczane"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity
+        android:name="com.asnus.duzcem.Otobus"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity
+        android:name="com.asnus.duzcem.Rehber"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity
+        android:name="com.asnus.duzcem.Tarih"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity
+        android:name="com.asnus.duzcem.Universite"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity
+        android:name="com.asnus.duzcem.Yigilca"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+        <activity
+            android:name="com.asnus.duzcem.Haber"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tarih"
+            android:icon="@drawable/tarih"
+            android:title="Tarihçe" />
+        <item
+            android:id="@+id/galeri"
+            android:icon="@drawable/galeri"
+            android:title="Şehrimizden Görüntüler" />
+        <item
+            android:id="@+id/haber"
+            android:icon="@drawable/haber"
+            android:title="Haberler" />
+        <item
+            android:id="@+id/rehber"
+            android:icon="@drawable/rehber"
+            android:title="Şehir Rehberi" />
+        <item
+            android:id="@+id/ezcane"
+            android:icon="@drawable/ezcane"
+            android:title="Nöbetçi Eczaneler" />
+        <item
+            android:id="@+id/otobus"
+            android:icon="@drawable/otobus"
+            android:title="Otobüs Saatleri" />
+        <item
+            android:id="@+id/universite"
+            android:icon="@drawable/universite"
+            android:title="Üniversitemiz" />
+    </group>
+
+    <item android:title="İlçeler">
+        <menu>
+            <item
+                android:id="@+id/akcakoca"
+                android:icon="@drawable/ilce"
+                android:title="Akçakoca" />
+            <item
+                android:id="@+id/cumayeri"
+                android:icon="@drawable/ilce"
+                android:title="Cumayeri" />
+            <item
+                android:id="@+id/cilimli"
+                android:icon="@drawable/ilce"
+                android:title="Çilimli" />
+            <item
+                android:id="@+id/golyaka"
+                android:icon="@drawable/ilce"
+                android:title="Gölyaka" />
+            <item
+                android:id="@+id/gumusova"
+                android:icon="@drawable/ilce"
+                android:title="Gümüşova" />
+            <item
+                android:id="@+id/kaynasli"
+                android:icon="@drawable/ilce"
+                android:title="Kaynaşlı" />
+            <item
+                android:id="@+id/yigilca"
+                android:icon="@drawable/ilce"
+                android:title="Yığılca" />
+        </menu>
+    </item>
+
+</menu>
